@@ -4,8 +4,7 @@ import joblib
 
 app = Flask(__name__)
 
-# Load the trained pipeline (vectorizer + model together)
-model = joblib.load("sentiment_model.pkl")  # make sure this matches your trained file
+model = joblib.load("sentiment_model.pkl")
 
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -14,8 +13,6 @@ def index():
 
     if request.method == "POST":
         review_text = request.form["review"]
-
-        # Use the pipeline directly; it will handle vectorization + prediction
         pred = model.predict([review_text])[0]
 
         if pred == 1:
