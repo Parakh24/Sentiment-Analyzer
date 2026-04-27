@@ -99,6 +99,8 @@ Output: Negative ❌
 ---
 
 ## 📂 Project Structure
+
+```text
 Sentiment_Analysis/
 │── data/
 │── notebooks/
@@ -106,7 +108,7 @@ Sentiment_Analysis/
 │── src/
 │── requirements.txt
 │── README.md
-
+```
 
 
 
@@ -114,7 +116,7 @@ Sentiment_Analysis/
 
 ## ⚡ Installation
 
-```bash
+
 git clone https://github.com/Parakh24/Sentiment_Analysis.git
 cd Sentiment_Analysis
 pip install -r requirements.txt
