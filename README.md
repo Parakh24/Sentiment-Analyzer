@@ -129,22 +129,22 @@ pip install -r requirements.txt
 - Real-time sentiment analysis API
 - Multilingual support
 
-
+---
 💡 Key Learnings
 - Understanding NLP pipeline
 - Feature engineering techniques
 - Model evaluation and comparison
 - Handling real-world text data
 
-
+---
 🤝 Contributing
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
-
+---
 📜 License
 This project is open-source and available under the MIT License.
 
-
+---
 🌟 Show Your Support
 -If you like this project:
 -⭐ Star the repository
@@ -152,7 +152,7 @@ This project is open-source and available under the MIT License.
 -📢 Share it
 
 
-
+---
 👨‍💻 Author
 Parakh
 Aspiring AI/ML Engineer
